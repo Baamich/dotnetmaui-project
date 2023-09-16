@@ -1,0 +1,1 @@
+C:\forproject\project\project.csproj;x64
