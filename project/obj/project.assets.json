@@ -197,6 +197,15 @@
           }
         }
       },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2120,6 +2129,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -4047,6 +4065,15 @@
           }
         }
       },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -5970,6 +5997,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -7897,6 +7933,15 @@
           }
         }
       },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9820,6 +9865,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11747,6 +11801,15 @@
           }
         }
       },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13672,6 +13735,15 @@
           }
         }
       },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15583,6 +15655,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -15766,6 +15847,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -15951,6 +16041,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16134,6 +16233,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -16319,6 +16427,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -16502,6 +16619,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -16687,6 +16813,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -16870,6 +17005,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -17055,6 +17199,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -17238,6 +17391,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -17423,6 +17585,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -17606,6 +17777,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -17791,6 +17971,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -17974,6 +18163,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -18159,6 +18357,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -18342,6 +18549,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -18666,6 +18882,15 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -18960,6 +19185,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -19256,6 +19490,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -19550,6 +19793,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -19846,6 +20098,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
@@ -20141,6 +20402,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
@@ -20435,6 +20705,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     },
@@ -20736,6 +21015,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "StLogger.Test/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/EasyLogPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {}
         }
       }
     }
@@ -21974,6 +22262,18 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "StLogger.Test/1.0.1": {
+      "sha512": "oTrQUohjnrdtxUbANW5L40vZ/kMEzD6E7Abb3s73/EPaiOt6+O8Kb1m4spZ9vDnFgSkQioP3cQjx3yHK9zqeLg==",
+      "type": "package",
+      "path": "stlogger.test/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/EasyLogPackage.dll",
+        "stlogger.test.1.0.1.nupkg.sha512",
+        "stlogger.test.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -23982,6 +24282,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
+      "StLogger.Test >= 1.0.1",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -24000,7 +24301,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92"
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "StLogger.Test >= 1.0.1"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24008,7 +24310,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92"
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "StLogger.Test >= 1.0.1"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24018,7 +24321,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "StLogger.Test >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -24110,6 +24414,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "StLogger.Test": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -24228,6 +24536,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "StLogger.Test": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -24291,6 +24603,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "StLogger.Test": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -24365,6 +24681,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "StLogger.Test": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
