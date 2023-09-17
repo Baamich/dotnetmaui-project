@@ -1,6 +1,8 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+#[Project Structure](https://drive.google.com/file/d/1b0eZkiVac5w0QmsDXMP7WF66C0C5Qu5K/view?usp=sharing)
+
 # Account manager admistrator app
 
 It's [.NET 7 MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui) app for managing company empoyers and their work accounts.
