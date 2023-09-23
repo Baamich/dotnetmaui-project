@@ -1,7 +1,9 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-# [Project Structure](https://drive.google.com/file/d/1b0eZkiVac5w0QmsDXMP7WF66C0C5Qu5K/view?usp=sharing)
+# PROJECT DEVELOP LINKS
+## [Project Structure](https://drive.google.com/file/d/1b0eZkiVac5w0QmsDXMP7WF66C0C5Qu5K/view?usp=sharing)
+## [COLOUR PALETTE](https://colorhunt.co/palette/faf2d3f4e8693085c35cd2e6)
 
 # Account manager admistrator app
 
