@@ -197,7 +197,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -2131,7 +2131,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -4065,7 +4065,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -5999,7 +5999,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -7933,7 +7933,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -9867,7 +9867,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -11801,7 +11801,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -13735,7 +13735,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -15656,7 +15656,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -15849,7 +15849,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -16042,7 +16042,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -16235,7 +16235,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -16428,7 +16428,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -16621,7 +16621,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -16814,7 +16814,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -17007,7 +17007,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -17200,7 +17200,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -17393,7 +17393,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -17586,7 +17586,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -17779,7 +17779,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -17972,7 +17972,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -18165,7 +18165,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -18358,7 +18358,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -18551,7 +18551,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -18883,7 +18883,7 @@
           }
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -19187,7 +19187,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -19491,7 +19491,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -19795,7 +19795,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -20099,7 +20099,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -20403,7 +20403,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -20707,7 +20707,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -21017,7 +21017,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "StLogger.Test/1.0.1": {
+      "StLogger/1.0.9": {
         "type": "package",
         "compile": {
           "lib/net6.0/EasyLogPackage.dll": {}
@@ -22264,16 +22264,16 @@
         "tools/x86/GenXbf.dll"
       ]
     },
-    "StLogger.Test/1.0.1": {
-      "sha512": "oTrQUohjnrdtxUbANW5L40vZ/kMEzD6E7Abb3s73/EPaiOt6+O8Kb1m4spZ9vDnFgSkQioP3cQjx3yHK9zqeLg==",
+    "StLogger/1.0.9": {
+      "sha512": "EL2X0Apr+G0vf6OdXmfY6DKRzMkRSZWAhpwYNdjWgpQPgJer1q6mWWrc47gEijVoYlkS8RCK0lBXlgmu1UtTCQ==",
       "type": "package",
-      "path": "stlogger.test/1.0.1",
+      "path": "stlogger/1.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0/EasyLogPackage.dll",
-        "stlogger.test.1.0.1.nupkg.sha512",
-        "stlogger.test.nuspec"
+        "stlogger.1.0.9.nupkg.sha512",
+        "stlogger.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -24282,7 +24282,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
-      "StLogger.Test >= 1.0.1",
+      "StLogger >= 1.0.9",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -24302,7 +24302,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
-      "StLogger.Test >= 1.0.1"
+      "StLogger >= 1.0.9"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24311,7 +24311,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
-      "StLogger.Test >= 1.0.1"
+      "StLogger >= 1.0.9"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24322,7 +24322,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
-      "StLogger.Test >= 1.0.1"
+      "StLogger >= 1.0.9"
     ]
   },
   "packageFolders": {
@@ -24332,11 +24332,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\forproject\\project\\project.csproj",
+      "projectUniqueName": "C:\\forproject\\Project\\project.csproj",
       "projectName": "project",
-      "projectPath": "C:\\forproject\\project\\project.csproj",
+      "projectPath": "C:\\forproject\\Project\\project.csproj",
       "packagesPath": "C:\\Users\\Baamich\\.nuget\\packages\\",
-      "outputPath": "C:\\forproject\\project\\obj\\",
+      "outputPath": "C:\\forproject\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -24415,9 +24415,9 @@
             "version": "[7.0.92, )",
             "autoReferenced": true
           },
-          "StLogger.Test": {
+          "StLogger": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.9, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -24537,9 +24537,9 @@
             "version": "[7.0.92, )",
             "autoReferenced": true
           },
-          "StLogger.Test": {
+          "StLogger": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.9, )"
           }
         },
         "imports": [
@@ -24604,9 +24604,9 @@
             "version": "[7.0.92, )",
             "autoReferenced": true
           },
-          "StLogger.Test": {
+          "StLogger": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.9, )"
           }
         },
         "imports": [
@@ -24682,9 +24682,9 @@
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
           },
-          "StLogger.Test": {
+          "StLogger": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.9, )"
           }
         },
         "imports": [
