@@ -1,1 +1,1 @@
-C:\forproject\Project\project.csproj;x64
+C:\Users\Baamich\Documents\GitHub\dotnetmaui-project\project\project.csproj;x64
