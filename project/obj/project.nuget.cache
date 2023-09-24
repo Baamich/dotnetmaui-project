@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hfi24BznuxhFaxs7LLsJ0yrxKaUBLU3sPgqiGh12eQ7NP/oo9EX0ur9SQZ+VLmLrr6WNpmv8wkAD84OtSoiL9A==",
+  "dgSpecHash": "S2fURfkmjFyj/+ywdfJm+7b6+KtHIedKf8hJgUDp/fV5IEgTjLovWWERjs/3Ao06eCcO5pVLb5Upi3x/AmtE8A==",
   "success": true,
   "projectFilePath": "C:\\forproject\\Project\\project.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\Baamich\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.92\\microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Baamich\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\Baamich\\.nuget\\packages\\stlogger\\1.0.91\\stlogger.1.0.91.nupkg.sha512",
     "C:\\Users\\Baamich\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Baamich\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Baamich\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

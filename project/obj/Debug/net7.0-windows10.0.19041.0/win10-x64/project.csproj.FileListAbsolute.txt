@@ -322,3 +322,4 @@ C:\forproject\project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.
 C:\forproject\project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\forproject\project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\forproject\project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\forproject\Project\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EasyLogPackage.dll

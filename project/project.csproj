@@ -50,6 +50,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="StLogger" Version="1.0.91" />
 	</ItemGroup>
 
 </Project>

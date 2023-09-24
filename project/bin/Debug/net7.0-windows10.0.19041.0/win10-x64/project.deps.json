@@ -17,6 +17,7 @@
           "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.92",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
+          "StLogger": "1.0.91",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.10",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.92",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.92",
@@ -994,6 +995,14 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "StLogger/1.0.91": {
+        "runtime": {
+          "lib/net6.0/EasyLogPackage.dll": {
+            "assemblyVersion": "1.0.91.0",
+            "fileVersion": "1.0.91.0"
+          }
+        }
       }
     }
   },
@@ -1125,6 +1134,13 @@
       "sha512": "sha512-1Y8KDCmUqytdduubaQhRz6aqaP7YhVSPE/fHeqLMsK3DrV+eBThrqkM6R/8N2lu0mwkNfKSTSAhixrTR72nyWA==",
       "path": "microsoft.windowsappsdk/1.2.221209.1",
       "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
+    },
+    "StLogger/1.0.91": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7CoNF2Yx4h0xCsrEDY9ljbOv+QSWacsLzdh7wPaCv9KO1gUmMF/RyJygISWpN6uWyBTUGO/82HwAWPWKuEbsPw==",
+      "path": "stlogger/1.0.91",
+      "hashPath": "stlogger.1.0.91.nupkg.sha512"
     }
   },
   "runtimes": {

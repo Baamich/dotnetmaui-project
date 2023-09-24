@@ -1,1 +1,1 @@
-C:\forproject\project\project.csproj;x64
+C:\forproject\Project\project.csproj;x64
