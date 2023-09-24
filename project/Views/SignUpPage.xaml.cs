@@ -6,4 +6,9 @@ public partial class SignUpPage : ContentPage
     {
         InitializeComponent();
     }
+
+    private async void Button_Clicked(System.Object sender, System.EventArgs e)
+    {
+        await Navigation.PopModalAsync();
+    }
 }
