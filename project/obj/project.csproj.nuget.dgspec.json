@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\forproject\\project\\project.csproj": {}
+    "C:\\forproject\\Project\\project.csproj": {}
   },
   "projects": {
-    "C:\\forproject\\project\\project.csproj": {
+    "C:\\forproject\\Project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\forproject\\project\\project.csproj",
+        "projectUniqueName": "C:\\forproject\\Project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\forproject\\project\\project.csproj",
+        "projectPath": "C:\\forproject\\Project\\project.csproj",
         "packagesPath": "C:\\Users\\Baamich\\.nuget\\packages\\",
-        "outputPath": "C:\\forproject\\project\\obj\\",
+        "outputPath": "C:\\forproject\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -90,9 +90,9 @@
               "version": "[7.0.92, )",
               "autoReferenced": true
             },
-            "StLogger.Test": {
+            "StLogger": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.9, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -212,9 +212,9 @@
               "version": "[7.0.92, )",
               "autoReferenced": true
             },
-            "StLogger.Test": {
+            "StLogger": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
@@ -279,9 +279,9 @@
               "version": "[7.0.92, )",
               "autoReferenced": true
             },
-            "StLogger.Test": {
+            "StLogger": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
@@ -357,9 +357,9 @@
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
             },
-            "StLogger.Test": {
+            "StLogger": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
