@@ -5,7 +5,6 @@ public partial class SignUpPage : ContentPage
     public SignUpPage()
     {
         InitializeComponent();     
-        CheckPassword();
     }
 
     private void CheckPassword()
@@ -18,7 +17,7 @@ public partial class SignUpPage : ContentPage
 
     private async void SignUpButton_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PopModalAsync();
+        CheckPassword();
     }
     
     private async void ReturnButton_Clicked(System.Object sender, System.EventArgs e)
