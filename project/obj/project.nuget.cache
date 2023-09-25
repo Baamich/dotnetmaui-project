@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S2fURfkmjFyj/+ywdfJm+7b6+KtHIedKf8hJgUDp/fV5IEgTjLovWWERjs/3Ao06eCcO5pVLb5Upi3x/AmtE8A==",
+  "dgSpecHash": "bFm5xiTh7eMR8xyKbsZPkPYHmCTvhfHopC/YokWtSdYAZYEkHzM5c76IalxZ66hI+5WZdKYxMY1yt6OL6mY+Zw==",
   "success": true,
-  "projectFilePath": "C:\\forproject\\Project\\project.csproj",
+  "projectFilePath": "C:\\Users\\Baamich\\Documents\\GitHub\\dotnetmaui-project\\project\\project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baamich\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Baamich\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

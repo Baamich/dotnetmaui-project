@@ -5,7 +5,7 @@
              Title="SignUpPage">
 
     <Grid RowDefinitions="2*,*" Margin="0,10,0,0">        
-        <VerticalStackLayout Padding="10" VerticalOptions="Center" HorizontalOptions="Center">           
+        <VerticalStackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">           
             <Frame BorderColor="Gray"
                CornerRadius="10"
                HasShadow="True"
@@ -20,24 +20,24 @@
                 Opacity="0.9" />
                 </Frame.Shadow>
 
-                <StackLayout Padding="10">
+                <StackLayout Padding="0">
                     <VerticalStackLayout Padding="10" BackgroundColor="White">                        
 
                         <Label Text="Sign Up"
-                       FontSize="30"
+                       FontSize="25"
                        FontAttributes="Bold"
                        TextColor="Black"
                        FontFamily="Consolas"
-                       Padding="5"/>
+                       Padding="3"/>
 
 
-                        <Label Text="then Log in" TextColor="Black"
+                        <Label Text="Then Log in" TextColor="Black"
                                FontSize="14" Padding="5"
                                FontAttributes="Bold" />
 
                     </VerticalStackLayout>
 
-                    <VerticalStackLayout Padding="10">
+                    <VerticalStackLayout Padding="0">
                         <Label Text="Admin email"/>
 
                         <Frame CornerRadius="10" Padding="3" Margin="0,10,0,0">
@@ -49,19 +49,34 @@
                         </Frame>
 
                         <VerticalStackLayout Padding="0" Margin="0,5,0,0">
-                            <Label FontFamily="Consolas" Text="Password"/>
+                            <Label Text="Password"/>
 
                             <Frame CornerRadius="10" Padding="3" Margin="0,10,0,0">
 
-                                <Entry x:Name="Password" Margin="5,0,0,0" Placeholder="Password"
+                                <Entry x:Name="PasswordEntry" Margin="5,0,0,0" Placeholder="Password"
                                    IsPassword="True" FontSize="Header" MaxLength="30"/>
                                     
                             </Frame>
                         </VerticalStackLayout>
-
                         
+                        <VerticalStackLayout Padding="0" Margin="0,5,0,0">
+                            <Label Text="Entry password again"/>
+
+                            <Frame CornerRadius="10" Padding="3" Margin="0,10,0,0">
+
+                                <Entry x:Name="RepeatPasswordEntry" Margin="5,0,0,0" Placeholder="Entry password"
+                                    IsPassword="True" FontSize="Header" MaxLength="30"/>
+
+                            </Frame>
+                            <Label
+                                x:Name="ErrorLabel" Padding="0" Margin="0,10,0,0" 
+                                FontSize="10" Text="" TextColor="Red" />
+                            
+                        </VerticalStackLayout>
+                        
+
                         <BoxView Color="Black"
-                                 Margin="0,20,0,0"
+                                 Margin="0,5,0,0"
                                  HeightRequest="2"
                                  HorizontalOptions="Fill" />
 
@@ -77,7 +92,7 @@
                                 BorderColor="Black"
                                 BorderWidth="1"
                                 BackgroundColor="Black"
-                                    Clicked="Button_Clicked"/>
+                                    Clicked="ReturnButton_Clicked"/>
 
                             <Button Margin="8,10,0,0"
                                     Padding="45,0,45,0"
@@ -90,7 +105,7 @@
                                 BorderColor="Black"
                                 BorderWidth="1"
                                 BackgroundColor="Transparent"
-                                Clicked="Button_Clicked"/>
+                                Clicked="SignUpButton_Clicked"/>
 
                         </HorizontalStackLayout>                                                
                     </VerticalStackLayout>

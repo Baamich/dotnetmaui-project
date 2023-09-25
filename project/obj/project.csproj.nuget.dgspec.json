@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\forproject\\Project\\project.csproj": {}
+    "C:\\Users\\Baamich\\Documents\\GitHub\\dotnetmaui-project\\project\\project.csproj": {}
   },
   "projects": {
-    "C:\\forproject\\Project\\project.csproj": {
+    "C:\\Users\\Baamich\\Documents\\GitHub\\dotnetmaui-project\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\forproject\\Project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\Baamich\\Documents\\GitHub\\dotnetmaui-project\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\forproject\\Project\\project.csproj",
+        "projectPath": "C:\\Users\\Baamich\\Documents\\GitHub\\dotnetmaui-project\\project\\project.csproj",
         "packagesPath": "C:\\Users\\Baamich\\.nuget\\packages\\",
-        "outputPath": "C:\\forproject\\Project\\obj\\",
+        "outputPath": "C:\\Users\\Baamich\\Documents\\GitHub\\dotnetmaui-project\\project\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
