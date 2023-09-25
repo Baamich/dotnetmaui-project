@@ -4,20 +4,24 @@ public partial class SignUpPage : ContentPage
 {
     public SignUpPage()
     {
-        InitializeComponent();
-        if (Password != Password2)
+        InitializeComponent();        
+    }
+
+    private void CheckPassword()
+    {
+        if (PasswordEntry.Text != RepeatPasswordEntry.Text)
         {
-            ErorPassword.Text = "Password does't match ";
-        }
-        else if (Password == Password2)
-        {
-            ErorPassword.Text = "";
+            ErrorLabel.Text = "Password does't match";
         }
     }
 
-    private async void Button_Clicked(System.Object sender, System.EventArgs e)
+    private async void SignUpButton_Clicked(System.Object sender, System.EventArgs e)
     {
         await Navigation.PopModalAsync();
     }
-
+    
+    private async void ReturnButton_Clicked(System.Object sender, System.EventArgs e)
+    {
+        await Navigation.PopModalAsync();
+    }    
 }
