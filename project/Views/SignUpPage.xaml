@@ -92,7 +92,7 @@
                                 BorderColor="Black"
                                 BorderWidth="1"
                                 BackgroundColor="Black"
-                                    Clicked="Button_Clicked"/>
+                                    Clicked="ReturnButton_Clicked"/>
 
                             <Button Margin="8,10,0,0"
                                     Padding="45,0,45,0"
@@ -105,7 +105,7 @@
                                 BorderColor="Black"
                                 BorderWidth="1"
                                 BackgroundColor="Transparent"
-                                Clicked="Button_Clicked"/>
+                                Clicked="SignUpButton_Clicked"/>
 
                         </HorizontalStackLayout>                                                
                     </VerticalStackLayout>
