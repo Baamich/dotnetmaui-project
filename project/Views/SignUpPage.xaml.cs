@@ -22,6 +22,11 @@ public partial class SignUpPage : ContentPage
         {
             ErrorLabel.Text = "Password does't match";
         }
+        else if(PasswordEntry.Text.Length < 4 ||
+                RepeatPasswordEntry.Text.Length < 4)
+        {
+            ErrorLabel.Text = "Password must be longer than 4 digits";
+        }
     }
 
     private async void ReturnButton_Clicked(Object sender, EventArgs e)
