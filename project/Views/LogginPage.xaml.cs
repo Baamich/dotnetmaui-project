@@ -11,7 +11,7 @@ public partial class LogginPage : ContentPage
 
     private async void SignUpButton_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PushModalAsync(new SignUpPage());
+        await Shell.Current.GoToAsync(AppRoutes.singUpPageRoute);
     }
     
     private async void SignInButton_Clicked(System.Object sender, System.EventArgs e)
