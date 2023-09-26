@@ -56,4 +56,10 @@
 		<PackageReference Include="StLogger" Version="1.0.91" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	</ItemGroup>
 </Project>

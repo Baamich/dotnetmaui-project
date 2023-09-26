@@ -1,9 +1,9 @@
-﻿namespace project.Views;
+﻿using project.Models;
+
+namespace project.Views;
 
 public partial class LogginPage : ContentPage
-{
-    private string secStorageKey = "hasAuth"; //test, chanhe to property ot other thing
-
+{   
     public LogginPage()
     {
         InitializeComponent();
@@ -13,20 +13,18 @@ public partial class LogginPage : ContentPage
     {
         await Navigation.PushModalAsync(new SignUpPage());
     }
-
-
-    //Check loading page logic
+    
     private async void SignInButton_Clicked(System.Object sender, System.EventArgs e)
     {
         if (IsDataCorrect())
         {
-            await SecureStorage.SetAsync(secStorageKey, "true");
-            await Shell.Current.GoToAsync("///loading");
+            await SecureStorage.SetAsync(AppRoutes.secStorageKey, value:"true");
+            await Shell.Current.GoToAsync(AppRoutes.loadingPageRoute);
         }
     }
 
     private bool IsDataCorrect()
     {
-        return EmailEntry.Text == "admin" && PasswordEntry.Text == "admin";
+        return EmailEntry.Text == "admin" && PasswordEntry.Text == "admin"; //test data
     }
 }

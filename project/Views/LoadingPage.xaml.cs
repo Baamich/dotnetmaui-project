@@ -1,9 +1,9 @@
-﻿namespace project.Views;
+﻿using project.Models;
+
+namespace project.Views;
 
 public partial class LoadingPage : ContentPage
-{
-    private string secStorageKey = "hasAuth";
-
+{   
     public LoadingPage()
     {
         InitializeComponent();
@@ -13,11 +13,11 @@ public partial class LoadingPage : ContentPage
     {
         if (await isAuntificated())
         {
-            await Shell.Current.GoToAsync("///singup"); //temp value for test
+            await Shell.Current.GoToAsync(AppRoutes.singUpPageRoute); //temp value for test
         }
         else
         {
-            await Shell.Current.GoToAsync("///loggin"); //temp value for test
+            await Shell.Current.GoToAsync(AppRoutes.logginPageRoute); //temp value for test
         }
         base.OnNavigatedTo(eventArgs);
     }
@@ -25,7 +25,7 @@ public partial class LoadingPage : ContentPage
     private async Task<bool> isAuntificated()
     {
         await Task.Delay(2000);
-        var hasAuth = await SecureStorage.GetAsync(secStorageKey);
+        var hasAuth = await SecureStorage.GetAsync(AppRoutes.secStorageKey);
         return !(hasAuth == null);
     }
 }

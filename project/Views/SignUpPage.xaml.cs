@@ -1,4 +1,7 @@
-﻿namespace project.Views;
+﻿using System;
+using project.Models;
+
+namespace project.Views;
 
 public partial class SignUpPage : ContentPage
 {
@@ -15,13 +18,13 @@ public partial class SignUpPage : ContentPage
         }
     }
 
-    private async void SignUpButton_Clicked(System.Object sender, System.EventArgs e)
+    private void SignUpButton_Clicked(Object sender, EventArgs e)
     {
         CheckPassword();
     }
     
-    private async void ReturnButton_Clicked(System.Object sender, System.EventArgs e)
+    private async void ReturnButton_Clicked(Object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("///loggin");
+        await Shell.Current.GoToAsync(AppRoutes.logginPageRoute);
     }    
 }
