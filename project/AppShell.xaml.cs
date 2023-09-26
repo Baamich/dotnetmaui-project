@@ -4,13 +4,17 @@ namespace project
 {    
     public partial class AppShell : Shell
     {
-        const string logginPageRoutStr = "loggin";
+        const string logginPageRoute = "loggin";
+        const string singUpPageRoute = "singup";
+        const string loadingPageRoute = "loading";
 
         public AppShell()
         {
             InitializeComponent();
 
-            Routing.RegisterRoute(logginPageRoutStr, typeof(LogginPage));
+            Routing.RegisterRoute(logginPageRoute, typeof(LogginPage));
+            Routing.RegisterRoute(singUpPageRoute, typeof(SignUpPage));
+            Routing.RegisterRoute(loadingPageRoute, typeof(LoadingPage));
         }
     }
 }
