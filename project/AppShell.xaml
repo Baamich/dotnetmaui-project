@@ -7,9 +7,17 @@
     xmlns:views="clr-namespace:project.Views"
     Shell.FlyoutBehavior="Disabled">
 
+
+    <!-- Loggin page -->
     <ShellContent
         Title="Employee Manager"
         ContentTemplate="{DataTemplate views:LogginPage}"
-        Route="loggin" />
+        Route="loggin"/>
+
+    <!-- SingUp page -->
+    <ShellContent
+        Title="Employee Manager"
+        ContentTemplate="{DataTemplate views:SignUpPage}"
+        Route="singup"/>
 
 </Shell>
