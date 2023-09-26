@@ -22,6 +22,6 @@ public partial class SignUpPage : ContentPage
     
     private async void ReturnButton_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PopModalAsync();
+        await Shell.Current.GoToAsync("///loggin");
     }    
 }
