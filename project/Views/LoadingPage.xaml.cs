@@ -13,11 +13,11 @@ public partial class LoadingPage : ContentPage
     {
         if (await isAuntificated())
         {
-            await Shell.Current.GoToAsync(AppRoutes.singUpPageRoute); //temp value for test
+            await Shell.Current.GoToAsync(AppRoutes.singUpPageRoute);
         }
         else
         {
-            await Shell.Current.GoToAsync(AppRoutes.logginPageRoute); //temp value for test
+            await Shell.Current.GoToAsync(AppRoutes.logginPageRoute);
         }
         base.OnNavigatedTo(eventArgs);
     }
