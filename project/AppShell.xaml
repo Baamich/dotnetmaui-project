@@ -20,4 +20,10 @@
         ContentTemplate="{DataTemplate views:SignUpPage}"
         Route="singup"/>
 
+    <!-- Loading page -->
+    <ShellContent
+        Title="Loading data"
+        ContentTemplate="{DataTemplate views:LoadingPage}"
+        Route="loading"/>
+
 </Shell>
