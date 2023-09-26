@@ -57,6 +57,11 @@
                                    IsPassword="True" FontSize="Header" MaxLength="30"/>
                                     
                             </Frame>
+
+                            <Label
+                                x:Name="ErrorLabel" Padding="0" Margin="0,10,0,0" 
+                                FontSize="10" Text="" HorizontalOptions="End" TextColor="Red" />
+
                         </VerticalStackLayout>
 
                         

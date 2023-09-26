@@ -21,6 +21,10 @@ public partial class LogginPage : ContentPage
             await SecureStorage.SetAsync(AppRoutes.secStorageKey, value:"true");
             await Shell.Current.GoToAsync(AppRoutes.loadingPageRoute);
         }
+        else
+        {
+            ErrorLabel.Text = "Email or password are incorrect";
+        }
     }
 
     private bool IsDataCorrect()
