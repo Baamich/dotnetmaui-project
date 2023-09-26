@@ -1,16 +1,17 @@
-﻿using project.Views;
+﻿using project.Models;
+using project.Views;
 
 namespace project
 {    
     public partial class AppShell : Shell
     {
-        const string logginPageRoutStr = "loggin";
-
         public AppShell()
         {
             InitializeComponent();
 
-            Routing.RegisterRoute(logginPageRoutStr, typeof(LogginPage));
+            Routing.RegisterRoute(AppRoutes.logginPageRoute, typeof(LogginPage));
+            Routing.RegisterRoute(AppRoutes.singUpPageRoute, typeof(SignUpPage));
+            Routing.RegisterRoute(AppRoutes.loadingPageRoute, typeof(LoadingPage));
         }
     }
 }
