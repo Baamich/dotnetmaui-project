@@ -58,8 +58,13 @@
 
 	<ItemGroup>
 	  <None Remove="Models\" />
+	  <None Remove="Resources\Images\admin.png" />
+	  <None Remove="Resources\Images\adminImage.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\employee.png" />
 	</ItemGroup>
 </Project>

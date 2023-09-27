@@ -9,5 +9,6 @@ public partial class MainPage : ContentPage
 
     void DataList_ItemSelected(System.Object sender, Microsoft.Maui.Controls.SelectedItemChangedEventArgs e)
     {
+
     }
 }
