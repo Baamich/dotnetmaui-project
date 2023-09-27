@@ -9,6 +9,7 @@ namespace project.Models
         public const string logginPageRoute = "///loggin";
         public const string singUpPageRoute = "///singup";
         public const string loadingPageRoute = "///loading";
+        public const string maintPageRoute = "///main";
     }
 }
 

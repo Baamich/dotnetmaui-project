@@ -22,8 +22,14 @@
 
     <!-- Loading page -->
     <ShellContent
-        Title="Loading data"
+        Title="Loading Data"
         ContentTemplate="{DataTemplate views:LoadingPage}"
         Route="loading"/>
+
+    <!-- Main page -->
+    <ShellContent
+        Title="Main Page"
+        ContentTemplate="{DataTemplate views:MainPage}"
+        Route="main"/>
 
 </Shell>
