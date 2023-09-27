@@ -13,7 +13,7 @@ namespace project
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new MainPage();
 
             Microsoft.Maui.Handlers.EntryHandler.Mapper.AppendToMapping("NoUnderLine", (handler, view) => {
 #if __ANDROID__

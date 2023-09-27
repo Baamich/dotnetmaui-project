@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project.Views.MainPage"
+             Title="MainPage">
+
+    <ListView x:Name="DataList" Margin="15" ItemSelected="DataList_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="10" RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,Auto,Auto">
+                        
+
+                    </Grid>
+
+                </ViewCell>
+
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+</ContentPage>
