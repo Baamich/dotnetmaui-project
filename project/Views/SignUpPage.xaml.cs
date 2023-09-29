@@ -17,12 +17,17 @@ public partial class SignUpPage : ContentPage
 
     private void CheckPassword()
     {
+        HandleErrorLabel();
+    }
+
+    private void HandleErrorLabel()
+    {
         ErrorLabel.Text = null;
         if (PasswordEntry.Text != RepeatPasswordEntry.Text)
         {
             ErrorLabel.Text = "Password does't match.";
         }
-        else if(PasswordEntry.Text.Length < 4)
+        else if (PasswordEntry.Text.Length < 4)
         {
             ErrorLabel.Text = "Password must be longer than 4 digits.";
         }
