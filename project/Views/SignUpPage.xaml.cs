@@ -4,16 +4,18 @@ namespace project.Views;
 
 public partial class SignUpPage : ContentPage
 {
+    LoginDataFileHandler loginDataFileHandler;
+
     public SignUpPage()
     {
-        InitializeComponent();        
+        InitializeComponent();
+        loginDataFileHandler = new LoginDataFileHandler();
     }    
 
     private async void SignUpButton_Clicked(Object sender, EventArgs e)
     {
         if (HandleErrorLabel())
-        {
-            LoginDataFileHandler loginDataFileHandler = new LoginDataFileHandler();
+        {            
             await loginDataFileHandler.WriteLoginData(EmailEntry.Text, PasswordEntry.Text);
             await DisplayAlert(title:"Successfull registred", message:"Now return to previous page and login to the system.", cancel:"Return");
             await Shell.Current.GoToAsync(AppRoutes.logginPageRoute);
@@ -38,7 +40,7 @@ public partial class SignUpPage : ContentPage
             ErrorLabel.Text = "Password must be longer than 4 digits.";
             return false;
         }
-        return false;
+        return true;
     }
 
     private async void ReturnButton_Clicked(System.Object sender, System.EventArgs e)

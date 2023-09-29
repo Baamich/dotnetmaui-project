@@ -3,17 +3,16 @@
 namespace project.Views;
 
 public partial class LogginPage : ContentPage
-{   
+{
+    LoginDataFileHandler loginDataFileHandler;
+
     public LogginPage()
     {
         InitializeComponent();
+        loginDataFileHandler = new LoginDataFileHandler();
     }
    
-    private bool IsDataCorrect()
-    {
-        return EmailEntry.Text == "admin" && PasswordEntry.Text == "admin"; //test data
-    }
-
+    
     private async void SignUpButton_Clicked(System.Object sender, System.EventArgs e)
     {
         await Shell.Current.GoToAsync(AppRoutes.singUpPageRoute);
@@ -21,6 +20,7 @@ public partial class LogginPage : ContentPage
 
     private async void SignInButton_Clicked(System.Object sender, System.EventArgs e)
     {
+        await loginDataFileHandler.ReadLoginData();
         if (IsDataCorrect())
         {
             await SecureStorage.SetAsync(AppRoutes.secStorageKey, value:"true");
@@ -30,5 +30,12 @@ public partial class LogginPage : ContentPage
         {
             ErrorLabel.Text = "Email or password are incorrect";
         }
+    }
+
+    private bool IsDataCorrect()
+    {
+        ErrorLabel.Text = "";
+        if (EmailEntry.Text != loginDataFileHandler.emailLine || PasswordEntry.Text != loginDataFileHandler.passwordLine) return false;
+        else return EmailEntry.Text == loginDataFileHandler.emailLine && PasswordEntry.Text == loginDataFileHandler.passwordLine;
     }
 }

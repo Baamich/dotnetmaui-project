@@ -8,6 +8,9 @@ namespace project.Models
         private readonly string directory;
         private readonly string filePath;
 
+        public string emailLine { get; private set; }
+        public string passwordLine { get; private set; }
+
         public LoginDataFileHandler()
         {
             fileName = "LoginDataStoreFile.txt";
@@ -20,6 +23,24 @@ namespace project.Models
             using (StreamWriter writer = new StreamWriter(filePath, false))
             {
                 await writer.WriteAsync($"{email}\n{password}");
+            }            
+        }
+
+        public async Task ReadLoginData()
+        {
+            if(emailLine == null || passwordLine == null)
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    int lineToSave = 0;
+                    string line;
+                    while ((line = await reader.ReadLineAsync()) != null)
+                    {
+                        if (lineToSave == 0) emailLine += line;
+                        if (lineToSave == 1) passwordLine += line;
+                        lineToSave++;
+                    }
+                }
             }            
         }
     }
