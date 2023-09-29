@@ -8,12 +8,17 @@ public partial class LogginPage : ContentPage
     {
         InitializeComponent();
     }
+   
+    private bool IsDataCorrect()
+    {
+        return EmailEntry.Text == "admin" && PasswordEntry.Text == "admin"; //test data
+    }
 
     private async void SignUpButton_Clicked(System.Object sender, System.EventArgs e)
     {
         await Shell.Current.GoToAsync(AppRoutes.singUpPageRoute);
     }
-    
+
     private async void SignInButton_Clicked(System.Object sender, System.EventArgs e)
     {
         if (IsDataCorrect())
@@ -25,10 +30,5 @@ public partial class LogginPage : ContentPage
         {
             ErrorLabel.Text = "Email or password are incorrect";
         }
-    }
-
-    private bool IsDataCorrect()
-    {
-        return EmailEntry.Text == "admin" && PasswordEntry.Text == "admin"; //test data
     }
 }
