@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="project.Views.MainPage"
-             Title="MainPage">
+             Title="Database List"
+             Shell.BackgroundColor="Black">
 
     <ListView x:Name="DataList" Margin="15" ItemSelected="DataList_ItemSelected">
         <ListView.ItemTemplate>
