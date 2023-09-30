@@ -17,7 +17,7 @@ public partial class SignUpPage : ContentPage
         if (HandleErrorLabel())
         {            
             await loginDataFileHandler.WriteLoginData(EmailEntry.Text, PasswordEntry.Text);
-            await DisplayAlert(title:"Successfull registred", message:"Now return to previous page and login to the system.", cancel:"Return");
+            await DisplayAlert(title:"Successfull registred", message:"Now return to te previous page and login to the system.", cancel:"Return");
             await Shell.Current.GoToAsync(AppRoutes.logginPageRoute);
         }
     }

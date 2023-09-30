@@ -13,7 +13,7 @@ public partial class LoadingPage : ContentPage
     {
         if (await isAuntificated())
         {
-            await Shell.Current.GoToAsync(AppRoutes.maintPageRoute);
+            await Shell.Current.GoToAsync(AppRoutes.mainPageRoute);
         }
         else
         {

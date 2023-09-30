@@ -12,7 +12,7 @@ namespace project
             Routing.RegisterRoute(AppRoutes.logginPageRoute, typeof(LogginPage));
             Routing.RegisterRoute(AppRoutes.singUpPageRoute, typeof(SignUpPage));
             Routing.RegisterRoute(AppRoutes.loadingPageRoute, typeof(LoadingPage));
-            Routing.RegisterRoute(AppRoutes.maintPageRoute, typeof(MainPage));
+            Routing.RegisterRoute(AppRoutes.mainPageRoute, typeof(MainPage));
         }
     }
 }
