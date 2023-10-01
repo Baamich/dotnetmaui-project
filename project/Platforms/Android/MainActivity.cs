@@ -9,7 +9,7 @@ namespace project
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            Window.SetStatusBarColor(Android.Graphics.Color.Black);
+            Window.SetStatusBarColor(Android.Graphics.Color.Gray);
             Window.SetNavigationBarColor(Android.Graphics.Color.Transparent);
 
             base.OnCreate(savedInstanceState);

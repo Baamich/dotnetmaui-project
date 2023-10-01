@@ -11,4 +11,19 @@ public partial class MainPage : ContentPage
     {
 
     }
+
+    void Settings_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    void Logs_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    void About_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }

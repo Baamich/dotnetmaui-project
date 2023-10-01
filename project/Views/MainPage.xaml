@@ -3,7 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="project.Views.MainPage"
              Title="Database List"
-             Shell.BackgroundColor="Black">
+             Shell.BackgroundColor="Gray">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Settings" Order="Secondary" Text="Settings" Clicked="Settings_Clicked"/>
+        <ToolbarItem x:Name="Logs" Order="Secondary" Text="See Logs" Clicked="Logs_Clicked"/>
+        <ToolbarItem x:Name="About" Order="Secondary" Text="About" Clicked="About_Clicked"/>        
+    </ContentPage.ToolbarItems>
 
     <ListView x:Name="DataList" Margin="15" ItemSelected="DataList_ItemSelected">
         <ListView.ItemTemplate>
