@@ -53,13 +53,18 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-		<PackageReference Include="StLogger" Version="1.0.91" />
+		<PackageReference Include="StLogger" Version="1.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <None Remove="Models\" />
+	  <None Remove="Resources\Images\admin.png" />
+	  <None Remove="Resources\Images\adminImage.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\employee.png" />
 	</ItemGroup>
 </Project>

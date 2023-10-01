@@ -10,7 +10,7 @@
                            HeightRequest="50" WidthRequest="50"
                            IsVisible="True"/>
 
-        <Label Text="Checking data integrity..." HorizontalOptions="Center"/>
+        <Label x:Name="LoadingInfoText" Text="Logging to database..." HorizontalOptions="Center"/>
 
 
     </VerticalStackLayout>
