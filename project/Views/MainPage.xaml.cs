@@ -26,4 +26,8 @@ public partial class MainPage : ContentPage
     {
 
     }
+
+    void addItemButton_Clicked(System.Object sender, System.EventArgs e)
+    {
+    }
 }

@@ -11,36 +11,45 @@
         <ToolbarItem x:Name="About" Order="Secondary" Text="About" Clicked="About_Clicked"/>        
     </ContentPage.ToolbarItems>
 
-    <ListView x:Name="DataList" Margin="15" ItemSelected="DataList_ItemSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <Grid Padding="10" RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,Auto,Auto">
-                        <Image Grid.RowSpan="2" Grid.Column="0"
-                               Source="employee.png"
-                               Aspect="AspectFill"
-                               HeightRequest="100"
-                               WidthRequest="100"/>
+    <StackLayout Orientation="Vertical">
+        <ListView x:Name="DataList" Margin="15" ItemSelected="DataList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10" RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,Auto,Auto">
+                            <Image Grid.RowSpan="2" Grid.Column="0"
+                                   Source="employee.png"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
+                                   WidthRequest="100"/>
 
-                        <Label Grid.Column="1" Grid.Row="0"
-                               Text="{Binding Name}" FontAttributes="Bold"/>
+                            <Label Grid.Column="1" Grid.Row="0"
+                                   Text="{Binding Name}" FontAttributes="Bold"/>
 
-                        <Label Grid.Column="1" Grid.Row="1"
-                               Text="{Binding Email}"/>
+                            <Label Grid.Column="1" Grid.Row="1"
+                                   Text="{Binding Email}"/>
 
-                        <Label Grid.Column="2" Grid.Row="0"
-                               Text="{Binding Post}" FontAttributes="Bold"
-                               TextColor="{Binding PostColor}"
-                               HorizontalOptions="End"/>
+                            <Label Grid.Column="2" Grid.Row="0"
+                                   Text="{Binding Post}" FontAttributes="Bold"
+                                   TextColor="White"
+                                   HorizontalOptions="End"/>
 
-                    </Grid>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
-                </ViewCell>
-
-            </DataTemplate>
-
-        </ListView.ItemTemplate>
-
-    </ListView>
+        <Button Text="New  +" x:Name="addItemButton"
+                CornerRadius="25" HeightRequest="50"
+                WidthRequest="100" FontAttributes="Bold"
+                FontFamily="" FontSize="Large"
+                BackgroundColor="Gray"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="EndAndExpand"
+                Margin="0,0,20,10"
+                Clicked="addItemButton_Clicked">            
+        </Button>
+    </StackLayout>
 
 </ContentPage>
