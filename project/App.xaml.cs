@@ -3,9 +3,6 @@ using Microsoft.Maui.Controls.Compatibility.Platform.Android;
 using Android.Content.Res;
 #endif
 
-using project.Views;
-using EasyLogPackage;
-
 namespace project
 {
     public partial class App : Application
