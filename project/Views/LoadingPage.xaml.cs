@@ -22,8 +22,17 @@ public partial class LoadingPage : ContentPage
 
     private async Task<bool> isAuntificated()
     {
-        await Task.Delay(2000);
+        await LoadingScreenHandler();
         var hasAuth = await SecureStorage.GetAsync(AppRoutes.secStorageKey);
         return !(hasAuth == null);
+    }
+
+    private async Task LoadingScreenHandler()
+    {
+        await Task.Delay(1000);
+        LoadingInfoText.Text = "Checking data integrity...";
+        await Task.Delay(3000);
+        LoadingInfoText.Text = "Loading data...";
+        await Task.Delay(2000);
     }
 }
