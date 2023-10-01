@@ -22,11 +22,6 @@ public partial class MainPage : ContentPage
 
     }
 
-    void About_Clicked(System.Object sender, System.EventArgs e)
-    {
-
-    }
-
     void addItemButton_Clicked(System.Object sender, System.EventArgs e)
     {
     }

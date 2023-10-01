@@ -32,4 +32,16 @@
         ContentTemplate="{DataTemplate views:MainPage}"
         Route="main"/>
 
+    <!-- Settings/About page -->
+    <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate views:SettingsPage}"
+        Route="settings"/>
+
+    <!-- Logs-checker page -->
+    <ShellContent
+        Title="App logs"
+        ContentTemplate="{DataTemplate views:LogsCheckerPage}"
+        Route="appLogs"/>
+
 </Shell>

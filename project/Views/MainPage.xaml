@@ -6,9 +6,8 @@
              Shell.BackgroundColor="Gray">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="Settings" Order="Secondary" Text="Settings" Clicked="Settings_Clicked"/>
-        <ToolbarItem x:Name="Logs" Order="Secondary" Text="See Logs" Clicked="Logs_Clicked"/>
-        <ToolbarItem x:Name="About" Order="Secondary" Text="About" Clicked="About_Clicked"/>        
+        <ToolbarItem x:Name="Settings" Order="Secondary" Text="Settings/About" Clicked="Settings_Clicked"/>
+        <ToolbarItem x:Name="Logs" Order="Secondary" Text="See Logs" Clicked="Logs_Clicked"/>       
     </ContentPage.ToolbarItems>
 
     <StackLayout Orientation="Vertical">

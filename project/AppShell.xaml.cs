@@ -1,5 +1,4 @@
 ﻿using project.Models;
-using project.Views;
 
 namespace project
 {    
@@ -13,6 +12,8 @@ namespace project
             Routing.RegisterRoute(AppRoutes.singUpPageRoute, typeof(SignUpPage));
             Routing.RegisterRoute(AppRoutes.loadingPageRoute, typeof(LoadingPage));
             Routing.RegisterRoute(AppRoutes.mainPageRoute, typeof(MainPage));
+            Routing.RegisterRoute(AppRoutes.settingsPageRoute, typeof(SettingsPage));
+            Routing.RegisterRoute(AppRoutes.appLogsPageRoute, typeof(LogsCheckerPage));
         }
     }
 }
