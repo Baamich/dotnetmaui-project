@@ -17,9 +17,9 @@ public partial class MainPage : ContentPage
         await Shell.Current.GoToAsync(AppRoutes.settingsPageRoute);
     }
 
-    void Logs_Clicked(System.Object sender, System.EventArgs e)
+    async void Logs_Clicked(System.Object sender, System.EventArgs e)
     {
-
+        await Shell.Current.GoToAsync(AppRoutes.appLogsPageRoute);
     }
 
     void addItemButton_Clicked(System.Object sender, System.EventArgs e)
