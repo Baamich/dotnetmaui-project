@@ -12,9 +12,9 @@ public partial class MainPage : ContentPage
 
     }
 
-    void Settings_Clicked(System.Object sender, System.EventArgs e)
+    async void Settings_Clicked(System.Object sender, System.EventArgs e)
     {
-
+        await Shell.Current.GoToAsync(AppRoutes.settingsPageRoute);
     }
 
     void Logs_Clicked(System.Object sender, System.EventArgs e)
@@ -24,5 +24,6 @@ public partial class MainPage : ContentPage
 
     void addItemButton_Clicked(System.Object sender, System.EventArgs e)
     {
+
     }
 }

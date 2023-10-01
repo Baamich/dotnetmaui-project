@@ -1,6 +1,4 @@
-﻿using project.Models;
-
-namespace project.Views;
+﻿namespace project.Views;
 
 public partial class SignUpPage : ContentPage
 {
